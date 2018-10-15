@@ -17,6 +17,10 @@ A traffic sign classifier for self-driving cars using CNN and FNN.
 
 # Datset: 
 It can be downloaded into your local pc at https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip
+The dataset has a total of 43 classes with each number associated with a specific class.
+The training set composed of 37499 images, while the test set totalled to 12630 images.
+All images are 32 by 32 in size.
+
 
 # Final Result2
 The training set reached an accuracy of 91.7 % with test set reaching a decent 82.1 %
