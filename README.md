@@ -12,14 +12,14 @@ A traffic sign classifier for self-driving cars using CNN and FNN.
 2. The image uploading turned out to be tricky if not uploaded within a dedicated time span of running cell.
 
 # Resolution
-1. Introduce third and forth arguments 'mean' and 'stddev' in both CNN and FNN, where mean = 0 and stddev = 0.1
-2. Upload the image while the cell is still running, this will ensure that the file is stored in correct folder in Google Drive.
+1. To significantly increase accuracy, introduce third and forth arguments 'mean' and 'stddev' in both CNN and FNN, where mean = 0 and stddev = 0.1
+2. To avoid jumbling paths in Drive, upload the image while the cell is still running, this will ensure that the file is stored in correct folder in Google Drive.
 
 # Datset: 
-It can be downloaded into your local pc at https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip
-The dataset has a total of 43 classes with each number associated with a specific class.
-The training set composed of 37499 images, while the test set totalled to 12630 images.
-All images are 32 by 32 in size.
+-It can be downloaded into your local pc at https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip
+-The dataset has a total of 43 classes with each number associated with a specific class.
+-The training set composed of 37499 images, while the test set totalled to 12630 images.
+-All images are 32 by 32 in size.
 
 
 # Final Result2
