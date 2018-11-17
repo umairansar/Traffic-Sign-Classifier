@@ -1,5 +1,5 @@
 # Traffic-Sign-Classifier
-A traffic sign classifier for self-driving cars using CNN and FNN, with modified Lenet architecture.
+A traffic sign classifier for self-driving cars using CNN and FNN, with modified Lenet architecture, touching a modest 82.1% accuracy on test data.
 # Methodology
 - Import images from the dataset.
 - Preprocessing of images, such as shuffling, greyscaling, histogram equilization, and normalisation.
